@@ -7,7 +7,7 @@ const Projeto = () => (
   <Card>
     <Titulo>Projeto Lista de tarefas</Titulo>
     <Paragrafo tipo="secundario">Lista de tarefas feita com VueJs</Paragrafo>
-    <LinkBotao>Visualizar</LinkBotao>
+    <LinkBotao>Visualiza</LinkBotao>
   </Card>
 )
 

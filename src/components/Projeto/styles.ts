@@ -7,10 +7,13 @@ export const Card = styled.div`
 
 export const LinkBotao = styled.a`
   color: #fff;
+  cursor:pointer;
   font-size: 14px;
   background-color: #4476bf;
   text-decoration: none;
   padding: 8px;
   display: inline-block;
   margin-top:24px:
+
+
 `
