@@ -1,16 +1,27 @@
+// components/Projeto/index.tsx
+
 import Paragrafo from '../Paragrafo'
 import Titulo from '../Titulo'
-
 import { Card, LinkBotao } from './styles'
 
-const Projeto = () => (
+type ProjetoProps = {
+  titulo: string
+  descricao: string
+  link: string
+}
+
+const Projeto = ({ titulo, descricao, link }: ProjetoProps) => (
   <Card>
-    <Titulo>Projeto Lista de tarefas</Titulo>
-    <Paragrafo tipo="secundario">Lista de tarefas feita com VueJs</Paragrafo>
-    <LinkBotao>Visualiza</LinkBotao>
+    <Titulo>{titulo}</Titulo>
+    <Paragrafo tipo="secundario">{descricao}</Paragrafo>
+    <LinkBotao
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Visualizar
+    </LinkBotao>
   </Card>
 )
 
 export default Projeto
-
-export {}

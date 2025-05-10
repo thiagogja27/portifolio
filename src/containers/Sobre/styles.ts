@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 
+
+export const ParagrafoCentralizado = styled.p`
+  text-align: center;
+  max-width: 700px;
+`
+
+
 export const GithubSecao = styled.div`
   margin-top: 32px;
   margin-bottom: 64px;

@@ -1,8 +1,8 @@
 const temaDark = {
   corPrincipal: '#fff',
-  corSecundaria: '#eee',
+   corSecundaria: '#949494',
   corDeFundo: '#282a35',
-  corDeFundoBotao: '#fff'
+ corDeFundoBotao: '#2276bf'
 }
 
 export default temaDark
